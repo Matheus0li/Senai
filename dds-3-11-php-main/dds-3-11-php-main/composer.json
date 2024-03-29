@@ -1,0 +1,22 @@
+{
+    "name": "aluno/dds_matheus",
+    "description": "primeiro projeto php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000 -t src/public"
+    },
+    "authors": [
+        {
+            "name": "matheus",
+            "email": "matmig17@gmail.com"
+        }
+    ],
+    "require": {
+        "components/bootstrap": "^4.6"
+    }
+}
